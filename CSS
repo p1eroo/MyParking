@@ -1,1 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'IBM Plex devanagari', sans-serif;
+}
+
+.container {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title {
+    display: grid;
+    color: #00155a;
+    font-Size: 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1200px;
+    height: 100px;
+    padding: 3rem;
+    grid-gap: 2.rem;
+    margin-bottom: 200px;
+
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #000000;
+    background: -webkit-linear-gradient(to left, hsla(147, 82%, 24%, 0.6), hsla(219, 67%, 72%, 0.6), #1e1d22), url(Imagenes/Estacionamiento.svg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, hsla(138, 61%, 20%, 0.6), hsla(225, 6%, 13%, 0.664), #04290a), url(Imagenes/Estacionamiento.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 30px 10px 10px
+}
+
+nav>a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 100px;
+    font-weight: ultralighter;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+
+
+nav>a:hover {
+    background: #000000;
+    transition: .5s;
+}
+
+header .textos-header {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.textos-header h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300px;
+    color: #fff;
+}
+
+.services {
+    padding: 3rem 0;
+    grid-gap: 2.rem;
+    margin-bottom: 200px;
+    background-color: #4AED9F;
+}
+
+.containerS {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 1.2rem;
+}
+
+.boxS {
+    padding: 2rem 2rem;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgba(0, 0, 0, 0.06);
+}
+
+.boxS img {
+    display: flex;
+    width: 500px;
+    margin-bottom: 20px
+}
+
+h4 {
+    display: grid;
+    color: #000000;
+    font-Size: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.history {
+    padding: 3rem 0;
+
+}
+
+.containerH {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 2.rem;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.boxH {
+    padding: 1rem 2rem;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgba(0, 0, 0, 0.06);
+    color: #000000;
+}
+
+.col1 {
+
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#txtHistory {
+
+    display: grid;
+    color: #ffffff;
+    font-Size: 20px;
+    align-items: center;
+    text-align: center;
+    line-height: 34px;
+    padding: 1rem 1rem;
+    background: #000000;
+    border: 3px solid #4AED9F;
+    width: 550px;
+    height: 350px;
+}
+
+.col2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgH {
+    width: 200%;
+}
+
+.aplication {
+    padding: 3rem 0;
+    background-color: #4AED9F;
+}
+
+.conteinerAU {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    display: grid;
+}
+
+
+.imgA1 {
+    width: 500px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgA2 {
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxA {
+    width: 320px;
+    height: 40px;
+    background-color: #5052df;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 200px;
+
+}
+
+
+.textA {
+    text-align: center;
+    font-Size: 16px;
+    padding: 10px 43px;
+    font-weight: bolder;
+    color: #FFFFFF
+}
+
+
+.boxA>p:hover {
+    background: #38add1;
+    transition: .5s;
+}
+
+.containerC {
+    width: 200%;
+}
+
+.boxContacto
+{   
+    padding:16px;
+}
