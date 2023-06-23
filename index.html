@@ -73,33 +73,34 @@
             </div>
         </div>
 
-        <div class="contacto" id = "Contacto">
+        <div class="contacto" id="Contacto">
             <h3 class="title">Contáctanos</h3>
-            <div class="containerContacto">
-                <div class = "boxContacto">
-
-                <label for="Nombre">Nombres:</label>
-                <input type="text" id="Nombre" name="Nombre">
-
-                <label for="Apellidos">Apellidos:</label>
-                <input type="text" id="Apellidos" name="Apellidos">
-
-                <label for="Correo">Correo eléctrónico:</label>
-                <input type="text" id="Correo" name="Correo">
-
-                <label for="Ciudad">Ciudad:</label>
-                <input type="text" id="Ciudad" name="Ciudad">
-
-                <label for="Telefono">Teléfono</label>
-                <input type="text" id="Telefono" name="Telefono">
-
-                <label for="Mensaje">Mensaje</label>
-                <input type="text" id="Mensaje" name="Mensaje">
-
-                <div>Enviar</div>
+            <div class="containerForm">
+                <form id="contact" action="" method="post">
+                    <fieldset>
+                      <input placeholder="Nombres" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                     <fieldset>
+                      <input placeholder="Apellidos" type="text" tabindex="2" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Correo electrónico" type="email" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                    <input placeholder="Ciudad" type="text" tabindex="4" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Teléfono" type="tel" tabindex="5" required>
+                    </fieldset>
+                    <fieldset>
+                      <textarea placeholder="Mensaje" tabindex="6" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                  </form>
             </div>
         </div>
-    </div>
 
         <footer>
             <div class="container footer">
